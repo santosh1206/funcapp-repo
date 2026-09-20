@@ -1,0 +1,15 @@
+{
+  "name": "azure-functions-lab",
+  "version": "1.0.0",
+  "description": "Azure Functions Lab with VM Management",
+  "main": "src/functions/*.js",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@azure/arm-compute": "^22.0.0",
+    "@azure/functions": "^4.0.0",
+    "@azure/identity": "^4.0.0"
+  }
+}
